@@ -1,0 +1,9 @@
+data/*
+models/*
+gifs/*
+reconstructions*
+*.ppt
+*.csv
+plots/*
+*old*
+sandbox/*
