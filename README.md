@@ -9,14 +9,22 @@ Understanding the complex dynamics of climate patterns under different anthropog
 * Proctor, Joshua L., Steven L. Brunton, and J. Nathan Kutz. "Dynamic mode decomposition with control." SIAM Journal on Applied Dynamical Systems 15.1 (2016): 142-161.
 * Demo, Nicola, Marco Tezzele, and Gianluigi Rozza. "PyDMD: Python dynamic mode decomposition." Journal of Open Source Software 3.22 (2018): 530.
 
+## Getting Started
+* Download the data: train_val.tar.gz from [ClimateBench](https://zenodo.org/records/7064308) to ./data then extract the files to ./data/train_val
+* Create ./models/DMD, ./models/DMDc-hankelforcing, and ./plots directories
+* Create a conda enviroment using the packages in requirements.txt and python 3.12.3
+* Run the notebooks in build_models to build the DMD and DMDc models
+* Run autoregressive_component.ipynb and autoregressive_component_dmd.ipynb for autoregressive component
+* Run forcing_contribution.ipynb for forcing contribution
+* Run concept_plots.ipynb for plots for climate bench data and regions
+
 
 ## Organization
 * ./build_models -- fitting DMD models on the data
 * ./models/ -- where we save the fitted models
-* autoregressive_component.ipynb -- plots for autoregressive component
-* forcing_contribution.ipynb -- plots for forcing contribution
-* concept_plots.ipynb -- plots for climate bench data and regions
+* ./data/ -- where data is saved
+* ./plots/ -- for all figures
 
 
 ## Authors
-Nathan Mankovich, 
+Nathan Mankovich and Shahine Bouabid
