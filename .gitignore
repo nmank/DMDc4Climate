@@ -7,3 +7,4 @@ reconstructions*
 plots/*
 *old*
 sandbox/*
+__pycache__
